@@ -15,5 +15,18 @@
 <body>
     <h1 class="text-3xl font-bold underline">환영 인사</h1>
     <p>스칼라에 오신 것을 환영합니다.</p>
+    <script>
+      var computerNum = Math.floor(Math.random () * 50) + 1;
+      console.log(computerNum);
+
+      const num = Number(prompt("숫자를 입력하세요."));
+      if (num > computerNum) {
+          alert("Up");
+      } else if (num < computerNum) {
+          alert("Down");
+      } else {
+          alert("정답입니다!");
+      }
+    </script>
 </body>
 </html>
